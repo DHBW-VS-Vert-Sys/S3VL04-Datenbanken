@@ -11,6 +11,10 @@ Repo zu S3 VL04: Übungen zu MySQL und MongoDB
 pip install -r requirements.txt
 ```
 
+- Stelle stets sicher, dass dein aktuelles Terminal auch die Python Virtual Environment aktiviert hat. Das erkennst du an einem vorangestellten `(venv)` im Terminal-Prompt.
+
+![python-venv](docs/img/python-venv.png)
+
 ## Aufgabe 1: MySQL
 
 > Um die `main.py` auszuführen, öffne ein neues Terminal und wechsele zunächst in das Unterverzeichnis `Aufgabe1-MySql` (`cd Aufgabe1-MySql`). Alle nachfolgenden Kommandos sind in diesem Unterverzeichnis auszuführen.

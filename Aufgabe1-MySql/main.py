@@ -136,10 +136,10 @@ if __name__ == "__main__":
     
     ##########################################################
     # SQL Injection Demonstration
-    #user = "'Max Mustermann'"
-    #malicious_email = "'some@mail.com'); DROP TABLE orders; SELECT ('dummy'"
-    #sql_injection_example(user, malicious_email)
-    #read_orders()  # Prüfen, ob Tabelle noch existiert
+    user = "'Max Mustermann'"
+    malicious_email = "'some@mail.com'); DROP TABLE orders; SELECT ('dummy'"
+    sql_injection_example(user, malicious_email)
+    read_orders()  # Prüfen, ob Tabelle noch existiert
 
     # Verbindung schließen
     cursor.close()
